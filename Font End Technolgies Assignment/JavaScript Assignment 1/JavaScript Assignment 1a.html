@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1> Hoisting</h1>
+	
+	<p id="p1">x = </p>
+	<p id="p2">y = </p>
+	
+	<script>
+
+		x = 1;
+		y = x;
+
+		document.getElementById("p1").innerHTML += x ;
+		document.getElementById("p2").innerHTML += y ;
+
+		var x;
+		var y;
+
+    </script>
+</body>
+</html>

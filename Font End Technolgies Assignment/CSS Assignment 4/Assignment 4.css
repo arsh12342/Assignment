@@ -1,0 +1,13 @@
+*
+table{
+	background-color: cyan;
+	table-layout: fixed;
+
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+th,td {
+  border: 1px solid black;
+}
+}

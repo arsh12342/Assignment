@@ -1,0 +1,34 @@
+*
+  /* in css background-color is specifed in body*/
+body {
+  background-color: #708090;
+    overflow-x: hidden;
+}
+p
+{
+ color: black;
+ font-size: 22px;
+ margin-top: 9px;
+ margin-left: 20px;
+}
+fieldset
+{
+	margin-top: 40px;
+	margin-left:20px;
+	background-color: pink;
+}
+
+header{
+	word-spacing: 80px;
+	margin-top : 0px;
+	  height:50px;
+	  background-color: lightgreen;
+}
+img
+{
+	margin-top: 70px;
+	margin-left: 200px;
+}
+
+
+

@@ -1,0 +1,10 @@
+*
+body
+{
+   background-image: url("https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg"), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi9LqqNSLc5ZByraEg3TSRa8HssbvwGkxdsg&usqp=CAU");
+ 
+  background-position: centre,center;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+  background-size: 60% 350px, 250px 250px;
+}

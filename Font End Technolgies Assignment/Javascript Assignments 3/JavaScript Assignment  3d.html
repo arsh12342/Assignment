@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+      <title></title>
+     
+   </head>
+   <body>
+   <p>Accesing JSON OBJECT USING Dot(".") Notation</p>
+   <div id="myid">
+      <script>
+	  var obj={"name":"Arshdeep singh","mobile":8667684544,"city":"haryana"};
+	  //var Name= obj.name;
+	  //var Mobile = obj.mobile;
+	  //var City = obj.city
+	   var Name= obj["name"];
+	  var Mobile = obj["mobile"];
+	  var City = obj["city"];
+	  document.getElementById("myid").innerHTML="Name: "+Name+" </br> Mobile:"+ Mobile+"</br>City: "+City;
+     
+      </script>
+      </body>
+</html>

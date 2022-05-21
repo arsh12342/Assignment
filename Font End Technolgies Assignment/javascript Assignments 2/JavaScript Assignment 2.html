@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JavaScript This Keyword</title>
+
+  </head>
+<body>
+<p id = "p"> var myVar = 100;  <br>
+
+      function printMe() <br>
+	  {
+
+        var myVar = 200;  <br>
+
+        alert("myVar = " + myVar); // 200   <br>
+
+        alert("this.myVar = " + this.myVar); // 100   <br>
+
+      }
+
+      printMe();  <br>
+<button onclick = "fun()" id = "btn">
+Click me!
+</button>
+
+<script>
+function fun() {
+
+document.getElementById("p").style.display = "none";
+}
+</script>
+
+  
+
+  </body>
+
+</html>

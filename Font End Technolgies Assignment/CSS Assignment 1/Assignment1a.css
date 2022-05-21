@@ -1,0 +1,42 @@
+*
+  /* in css background-color is specifed in body*/
+body {
+  background-color: lighterpink;
+    overflow-x: hidden;
+}
+a
+{
+	border-style: groove;
+	border-radius: 7px;
+	
+}
+fieldset
+{
+	margin-top: 40px;
+	margin-left:20px;
+	background-color: pink;
+	border-style: inset;
+	border-color: blue;
+	border-radius: 6px;
+}
+h1
+{
+	border-style: dashed; 
+}
+p
+{
+	border-style: dotted; 
+}
+header{
+	word-spacing: 80px;
+	margin-top : 0px;
+	  height:50px;
+	  background-color: lightgreen;
+	   
+ 
+}
+nav
+{
+	margin-top: 2px;
+	 position: absolute;
+}

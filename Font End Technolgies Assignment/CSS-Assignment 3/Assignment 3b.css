@@ -1,0 +1,25 @@
+*
+body
+{
+	margin: 0px;
+	font-size: 30px;
+	height: 100vh;
+	/* place-items: center; 
+	display: grid; */
+	 display: flex;
+	justify-content: centre;
+	align-items: center;
+}
+.container
+{
+	width: 70%;
+	background-color: lightgreen;
+	margin-left: 70px;
+	height: 150px;
+	overflow-y: auto;
+	/* overflow: hidden; */
+	/* overflow: visible; */
+	/* overflow: scroll; /*
+	/*overflow-x: scroll;/*
+	/* overflow-y: scroll;/*
+}
